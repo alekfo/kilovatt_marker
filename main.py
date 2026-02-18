@@ -37,8 +37,8 @@ async def main():
     logger.info('Бот запущен')
     # Установка команд бота
     await bot.set_my_commands([
-        BotCommand(command="/start", description="Начать"),
-        BotCommand(command="/cancel", description="Отменить текущее действие")
+        BotCommand(command="/start", description="🚀Начать"),
+        BotCommand(command="/cancel", description="↩️Отменить текущее действие")
     ])
     await dp.start_polling(bot)
 
